@@ -1,34 +1,34 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "/assets/skills/html.png"
+    "imageSrc": "/Assets/skills/html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "/assets/skills/css.png"
+    "imageSrc": "/Assets/skills/css.png"
   },
   {
     "title": "React",
-    "imageSrc": "/assets/skills/react.png"
+    "imageSrc": "/Assets/skills/react.png"
   },
   {
     "title": "Node",
-    "imageSrc": "/assets/skills/node.png"
+    "imageSrc": "/Assets/skills/node.png"
   },
   {
     "title": "Firebase",
-    "imageSrc": "/assets/skills/firebase.png"
+    "imageSrc": "/Assets/skills/firebase.png"
   },
   {
     "title": "MongoDB",
-    "imageSrc": "/assets/skills/mongodb.png"
+    "imageSrc": "/Assets/skills/mongodb.png"
   },
   {
     "title": "Javascript",
-    "imageSrc": "/assets/skills/javascript.png"
+    "imageSrc": "/Assets/skills/javascript.png"
   },
   {
     "title": "Express",
-    "imageSrc": "/assets/skills/express.png"
+    "imageSrc": "/Assets/skills/express.png"
   }
 ]

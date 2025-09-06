@@ -1,23 +1,18 @@
 import styles from "./About.module.css";
-import cursorImg from "../../../assets/about/cursorIcon.png";
-import serverImg from "../../../assets/about/serverIcon.png";
-import uiImg from "../../../assets/about/uiIcon.png";
-import manImage from "../../../assets/about/manImage.png";
+
 const About = () => {
-
-
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={manImage}
+          src="/assets/about/manImage.png"
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={cursorImg} alt="Cursor icon" />
+            <img src="/assets/about/cursorIcon.png" alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -27,7 +22,7 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={serverImg} alt="Server icon" />
+            <img src="/assets/about/serverIcon.png" alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -37,7 +32,7 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={uiImg} alt="UI icon" />
+            <img src="/assets/about/uiIcon.png" alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
@@ -51,4 +46,5 @@ const About = () => {
     </section>
   );
 };
+
 export default About;

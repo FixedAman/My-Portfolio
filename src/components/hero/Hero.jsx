@@ -1,12 +1,8 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
 
-import HeroImg from "../../../assets/hero/boy.png";
 const Hero = () => {
   return (
-
-    
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Aman</h1>
@@ -19,13 +15,18 @@ const Hero = () => {
           download="Aman_Mahish_Resume.pdf"
           className={styles.contactBtn}
         >
-          Dowload CV
+          Download CV
         </a>
       </div>
-      <img src={HeroImg} alt="Hero image of me" className={styles.heroImg} />
+      <img
+        src="/assets/hero/boy.png"
+        alt="Hero image of me"
+        className={styles.heroImg}
+      />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
   );
 };
+
 export default Hero;

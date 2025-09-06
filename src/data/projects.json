@@ -1,17 +1,17 @@
 [
   {
     "title": "E-Store",
-    "imageSrc": "/assets/projects/E-store.png",
+    "imageSrc": "/assets/projects/e-Store.png",
     "description": "Built using React, Tailwind, Firebase, API, and Stripe for secure payments and seamless shopping",
-    "skills": ["React", "Express", "Node", "TanStack", "FireBase", "Tailwind"],
+    "skills": ["React", "Express", "Node", "TanStack", "Firebase", "Tailwind"],
     "demo": "NA",
     "source": "https://github.com/FixedAman/E-Store"
   },
   {
     "title": "Gaming Store",
-    "imageSrc": "/assets/projects/gamestore.png",
-    "description": " Built with React, MongoDB, Tailwind, REST API, featuring secure payment integration and responsive design.",
-    "skills": ["React", "Express", "Node", "Mongodb"],
+    "imageSrc": "/assets/projects/gameStore.png",
+    "description": "Built with React, MongoDB, Tailwind, REST API, featuring secure payment integration and responsive design.",
+    "skills": ["React", "Express", "Node", "MongoDB"],
     "demo": "https://game-store-pi-steel.vercel.app/",
     "source": "https://github.com/FixedAman/GameStore"
   },

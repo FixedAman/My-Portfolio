@@ -4,7 +4,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/contact/Contact";
-import About from "./components/About/About";
+import About from "./components/about/About";
 function App() {
   return (
     <div className={styles.App}>

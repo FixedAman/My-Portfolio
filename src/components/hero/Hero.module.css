@@ -108,4 +108,7 @@
   .content {
     align-items: center;
   }
+  .contactBtn{
+    background-color: rgba(25, 55, 109, 0.7);
+  }
 }
